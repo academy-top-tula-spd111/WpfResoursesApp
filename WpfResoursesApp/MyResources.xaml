@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="magentaBrush" 
+                         Color="Magenta"/>
+    <LinearGradientBrush x:Key="redGradient"
+                             StartPoint="0,0"
+                             EndPoint="0,1">
+        <GradientStop Color="Red" Offset="0.8"/>
+        <GradientStop Color="DarkRed" Offset="1"/>
+    </LinearGradientBrush>
+    <Button x:Key="btnGo" Content="Click me" Width="100" Height="100"/>
+    <!--
+        <coll:ArrayList x:Key="Products">
+            <sys:String>Computers</sys:String>
+            <sys:String>Noutbooks</sys:String>
+            <sys:String>Phones</sys:String>
+        </coll:ArrayList>
+        -->
+</ResourceDictionary>
